@@ -1,0 +1,33 @@
+.cat-img-container{
+    width: 225px;
+    height: 225px;
+    position: relative;
+    transition: 0.3s;
+    margin: 8px;
+}
+
+.cat-img-container:hover{
+    width: 256px;
+    height: 256px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+.cat-img-container:hover .cat-like-container{
+    display: block;
+}
+.cat-img-container img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cat-like-container{
+    display:none;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px;
+}
+
+
